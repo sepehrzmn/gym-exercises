@@ -3,7 +3,6 @@ import { Box, Button, Stack, TextField, Typography } from "@mui/material";
 
 import { fetchData, exercisesOption } from "../utils/fetchData";
 import HorizontalScrollbar from "./HorizontalScrollbar";
-import BodyPart from "./BodyPart";
 
 const SearchExercises = ({ setExercises, setBodyPart, bodyPart }) => {
 	const [search, setSearch] = useState("");
@@ -19,12 +18,11 @@ const SearchExercises = ({ setExercises, setBodyPart, bodyPart }) => {
 		};
 		fetchExercisesData();
 	}, []);
-	console.log(bodyParts);
 
 	const handleSearch = async () => {
 		if (search) {
 			const exercisesData = await fetchData(
-				"https://exercisedb.p.rapidapi.com/exercises/bodyPartList",
+				"https://exercisedb.p.rapidapi.com/exercises",
 				exercisesOption
 			);
 			const searchedExercises = exercisesData.filter(
@@ -36,6 +34,7 @@ const SearchExercises = ({ setExercises, setBodyPart, bodyPart }) => {
 			);
 			setSearch("");
 			setExercises(searchedExercises);
+			console.log(exercisesData);
 		}
 	};
 
