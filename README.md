@@ -13,6 +13,9 @@
 ⭐[react-horizontal-scrolling-menu](https://www.npmjs.com/package/react-horizontal-scrolling-menu)
 ⭐[MUI Core](https://www.npmjs.com/package/@mui/material)
 
+### With help from:
+⭐[JavaScript Mastery](https://www.youtube.com/c/JavaScriptMastery)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
