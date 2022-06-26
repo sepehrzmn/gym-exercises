@@ -1,3 +1,18 @@
+# Description
+
+### I used the APIs in this repository:
+
+⭐[RapidAPI](https://rapidapi.com/hub?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=referral&utm_campaign=DevRel)
+⭐[RapidAPI ExerciseDB](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=referral&utm_campaign=DevRel)
+⭐[RapidAPI YouTube Search](https://rapidapi.com/h0p3rwe/api/youtube-search-and-download?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=referral&utm_campaign=DevRel)
+
+### and Im used :
+
+⭐[react-router-dom (v6)](https://reactrouter.com/docs/en/v6)
+⭐[react-loader-spinner](https://www.npmjs.com/package/react-loader-spinner)
+⭐[react-horizontal-scrolling-menu](https://www.npmjs.com/package/react-horizontal-scrolling-menu)
+⭐[MUI Core](https://www.npmjs.com/package/@mui/material)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
